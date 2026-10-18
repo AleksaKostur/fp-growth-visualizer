@@ -4,11 +4,12 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import tkinter as tk
+import tkinter.filedialog
+import tkinter.messagebox
 from collections import defaultdict
 
 
 # Definisanje globalne promenljive za figuru
-global fig
 fig = None
 
 
